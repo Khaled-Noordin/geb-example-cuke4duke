@@ -25,6 +25,10 @@
       <url>http://snapshots.repository.codehaus.org</url>
     </repository>
     <repository>
+      <id>geb-snaps</id>
+      <url>https://nexus.codehaus.org/content/repositories/snapshots</url>
+    </repository>
+    <repository>
       <id>cukes</id>
       <url>http://cukes.info/maven</url>
     </repository>
@@ -63,7 +67,7 @@
     <dependency>
       <groupId>org.codehaus.geb</groupId>
       <artifactId>geb-core</artifactId>
-      <version>0.6-SNAPSHOT</version>
+      <version>0.6.0-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
