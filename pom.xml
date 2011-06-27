@@ -12,7 +12,7 @@
 
   <properties>
     
-    <gebVersion>0.6.0-SNAPSHOT</gebVersion>
+    <gebVersion>0.6.0</gebVersion>
     <seleniumVersion>2.0rc3</seleniumVersion>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -120,6 +120,9 @@
             <cucumberArg>--strict</cucumberArg>
             <cucumberArg>--guess</cucumberArg>
           </cucumberArgs>
+          <jvmArgs>
+            <jvmArg>-Dgeb.env=${geb.env}</jvmArg>
+          </jvmArgs>
           <gems>
             <gem>install cuke4duke --version 0.4.4</gem>
           </gems>

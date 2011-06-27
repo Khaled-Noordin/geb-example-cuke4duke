@@ -18,13 +18,13 @@ driver = {
 
 environments {
 	
-	// run as “mvn -Dgeb.env=chrome cuke4duke:cucumber”
+	// run as “mvn -Dgeb.env=chrome integration-test”
 	// See: http://code.google.com/p/selenium/wiki/ChromeDriver
 	chrome {
 		driver = { new ChromeDriver() }
 	}
 	
-	// run as “mvn -Dgeb.env=firefox cuke4duke:cucumber”
+	// run as “mvn -Dgeb.env=firefox integration-test”
 	// See: http://code.google.com/p/selenium/wiki/FirefoxDriver
 	firefox {
 		driver = { new FirefoxDriver() }

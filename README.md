@@ -2,8 +2,12 @@ This is an example project for using [Geb](http://geb.codehaus.org/ "Geb - Groov
 
 This example is a [Maven](http://maven.apache.org/ "Maven - Welcome to Apache Maven") project and uses the [Maven Cuke4Duke plugin](http://wiki.github.com/cucumber/cuke4duke/maven "Maven - cuke4duke - GitHub").
 
-To run the features, execute:
+The first time you run this you need to run:
 
-    mvn test cuke4duke:cucumber
+    mvn -Dcucumber.installGems=true integration-test
+
+After that you can just run:
+
+    mvn integration-test
 
 Please see the `src/test/resources/GebConfig.groovy` file for how to run the tests with different browsers.
