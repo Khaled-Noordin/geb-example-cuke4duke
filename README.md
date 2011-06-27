@@ -5,3 +5,5 @@ This example is a [Maven](http://maven.apache.org/ "Maven - Welcome to Apache Ma
 To run the features, execute:
 
     mvn test cuke4duke:cucumber
+
+Please see the `src/test/resources/GebConfig.groovy` file for how to run the tests with different browsers.
